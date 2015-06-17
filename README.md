@@ -1,7 +1,7 @@
 #My project at Insight Data Engineering : Uncovering meetup.com's social network
 
-meetup.com is a great social networking portal : after subscribing to meetup groups, each user receives event recommendations and eventually meets like-minded people.
-How about having a recommender system based on similarities rather than activity preference ?
+meetup.com is a great social networking portal : after subscribing to meetup groups, each user receives recommendations for events where he can meet like-minded people.
+How about having a recommender system based on similarities rather than user defined activity preferences ?
 
 ## Data Pipeline
 
