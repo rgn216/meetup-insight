@@ -1,11 +1,11 @@
 #My project at Insight Data Engineering : Uncovering meetup.com's social network
 
-www.meetup.com is a great social networking portal : it enables users to meet like-minded people who have subscribed to the same groups. It is activity-centered (as opposed to relationship-centered). The idea behind my project is to augment the existing services with a social network element : the information gathered on the website can be used to estimate the similarity between two users and ultimately provide better suggestions. More precisely, the data collected from the website will be converted into  weighted graph, representing the degree of similarity between two users.
+www.meetup.com is a great social networking portal : it enables users to meet like-minded people who have subscribed to the same groups. It is activity-centered (as opposed to relationship-centered). The idea behind my project is to augment the existing services with a social network layer : the information gathered on the website can be used to estimate the similarity between two users and ultimately provide better suggestions. More precisely, the data collected from the website will be converted into  weighted graph, representing the degree of similarity between two users.
 
 
 ## Data Pipeline
 
-To be completed
+![The Data Pipeline](images/pipeline.png "DataPipeline")
 
 ## Data Collection
 
@@ -21,8 +21,9 @@ The batch processing is then performed in Hive, resulting in two weighted graphs
 - number of events attended by the two users
 - number of topics of interest in common
 
-## User interface
+## Web UI
 
+Ultimately, a Flask API serves the requests
 
 ## Interesting statistics
 
